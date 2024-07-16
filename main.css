@@ -1,0 +1,28 @@
+:root{
+    --cor-primario: #fdc2ff;
+    --cor-sec: #ffe3e3;
+    --cor-ter: #ffebeb;
+    --cor-cuarto: #fff3f3;
+    --cor-quinto:#fffff;
+    --cor-sexto: #f324fa;
+    --cor-sept: #fdc2ff;
+
+}
+
+*{
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    padding: 20;
+    line-height: 2;
+
+} 
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration-line: underline;
+    color: var(--cor-de-link);
+}
+
